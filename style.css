@@ -35,7 +35,6 @@
 }
 .choice {
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
 }
@@ -43,32 +42,36 @@
   width: 300px;
   height: 200px;
 }
-#rock {
+#Rock {
   display: flex;
   justify-content: end;
-  margin-right: -350px;
+  margin-right: -100px;
 }
-#paper {
-  margin-right: -350px;
+#Paper {
+  margin-right: -100px;
 }
-#scissor {
+#Scissor {
   display: flex;
   justify-content: start;
+}
+.choice img:hover {
+  cursor: pointer;
 }
 #msg-container {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-#msg-container p {
+#msg {
   background-color: lightcoral;
   font-size: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 370px;
   height: 75px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: fit-content;
   border-radius: 30px;
   color: white;
 }
